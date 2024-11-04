@@ -1,14 +1,17 @@
 module.exports.array = [
     {
-        "num": 3,
-        "esperado": "6"
+        "num1": 1,
+        "num2": 0,
+        "esperado": "3628800"
     },
     {
-        "num": 4,
-        "esperado": "24"
+        "num1": 4,
+        "num2": 1,
+        "esperado": "3.34525266131E49"
     },
     {
-        "num": 5,
-        "esperado": "120"
+        "num1": 5,
+        "num2": 2,
+        "esperado": "8.06581751709E67"
     }
 ]
