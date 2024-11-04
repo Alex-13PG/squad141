@@ -49,10 +49,8 @@ describe('Calculadora App - Operações Matemáticas', () => {
         const result = await driver.$("id:com.google.android.calculator:id/result_final")
         const resultText = await result.getText()
         
-        // Exibir o resultado no console
         console.log(`Resultado da divisão 99 por 33: ${resultText.trim()}`)
-    
-        // Verificar se o resultado é igual a 3
+        
         if (resultText.trim() !== '3') {
             throw new Error(`Resultado incorreto: esperado '3', mas obteve '${resultText.trim()}'`)
         }
